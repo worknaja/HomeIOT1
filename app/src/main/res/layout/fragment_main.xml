@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <!--Content-->
+    <LinearLayout
+        android:layout_marginTop="40dp"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Logo-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo_iot"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <!--GO TO Login-->
+        <Button
+
+            android:layout_marginTop="45dp"
+            android:id="@+id/btnGoToLogin"
+            android:background="@drawable/butttonlogin"
+            android:text="Login"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <!--GO TO Register-->
+
+        <Button
+            android:id="@+id/btnGoToRegister"
+            android:text="Register Now !"
+            android:background="@drawable/buttonregister"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
