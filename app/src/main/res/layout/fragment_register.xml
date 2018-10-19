@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/iotblur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/logo_iot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtUser"
+            android:textSize="20dp"
+            android:hint="username"
+            android:inputType="text"
+            android:background="@drawable/field_username"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:textSize="20dp"
+            android:hint="password"
+            android:inputType="text"
+            android:background="@drawable/field_password"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:textSize="20dp"
+            android:hint="e-mail"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/field_email"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/butRegister"
+            android:text="Create an account"
+            android:textSize="12dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
 
 
 
 
-</android.support.constraint.ConstraintLayout>
+
+
+
+</RelativeLayout>

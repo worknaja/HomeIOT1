@@ -20,6 +20,25 @@ public class MainFragment extends Fragment {
 //        Go To Login
         gotoLogin();
 
+        gotoRegister();
+
+
+    }
+
+    private void gotoRegister() {
+        Button button = getView().findViewById(R.id.btnGoToRegister);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity()
+                        .getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contenFragmentMain, new FragmentRegister())
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+
 
     }
 
