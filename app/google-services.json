@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "816625207462",
+    "firebase_url": "https://homeiot-7332f.firebaseio.com",
+    "project_id": "homeiot-7332f",
+    "storage_bucket": "homeiot-7332f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816625207462:android:d17e825e81608f34",
+        "android_client_info": {
+          "package_name": "com.example.nsx.homeiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816625207462-i8316tmg478h96i8i6vffae1328rtmlq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nsx.homeiot",
+            "certificate_hash": "8f6408d29d6ebf54dee1a2bc5a32898d1b418dbf"
+          }
+        },
+        {
+          "client_id": "816625207462-nmiok1ui8ojrdrl7k95637rth2ma07b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn0-K16ojT3AuPIlHnEFuRQHb-vb0RK3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816625207462-nmiok1ui8ojrdrl7k95637rth2ma07b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
